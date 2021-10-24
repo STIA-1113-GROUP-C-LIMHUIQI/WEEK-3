@@ -1,0 +1,51 @@
+package exercise1;
+
+public class RectangleComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double length, width, area, perimeter;
+		
+		length = 12.5;
+		width = 5.5;
+		
+		area = length * width;
+		perimeter = (2*length) + (2*width);
+		
+		System.out.print("The area of rectangle is ");
+		System.out.println(area);
+		System.out.print("The perimeter of rectangle is ");
+		System.out.println(perimeter);
+		
+
+	}
+
+}
+
+package exercise1;
+
+public class CylinderComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double radius, height, surfaceArea, baseArea, volume;
+		final double PI=3.14159265;
+		
+		radius = 2.5;
+		height = 10.5;
+		
+		surfaceArea = (2 * PI * radius * height) + (2 * PI * (radius*radius));
+		baseArea = PI * (radius*radius);
+		volume = PI * (radius*radius) * height;
+		
+		System.out.print("The surface area of cylinder is ");
+		System.out.println(surfaceArea);
+		System.out.print("The base area of cylinder is ");
+		System.out.println(baseArea);
+		System.out.print("The volume of cylinder is ");
+		System.out.println(volume);
+
+	}
+
+}
